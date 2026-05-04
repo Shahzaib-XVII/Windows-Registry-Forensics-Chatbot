@@ -1,0 +1,30 @@
+# API Keys - NEVER commit
+.env
+
+# Virtual Environment
+venv/
+
+# Python cache - covers ALL subfolders recursively
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.pyc
+*.pyo
+
+# Database files
+forensics.db
+chroma_store/
+
+# Evidence files (large + sensitive forensic data)
+tests/SOFTWARE.hiv
+tests/SYSTEM.hiv
+tests/NTUSER.hiv
+tests/System.evtx
+tests/Application.evtx
+
+# Generated outputs
+*.pdf
+
+# OS junk
+.DS_Store
+Thumbs.db
